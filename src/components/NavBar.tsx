@@ -30,6 +30,17 @@ const BackgroundVideo = styled.video`
   pointer-events: none;
 `;
 
+const NavBarBackground = styled.div`
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  background-color: black;
+`;
+
 const Logo = styled.img`
   height: 80px;
   width: auto;
@@ -141,9 +152,9 @@ const Navbar: React.FC = () => {
 
   return (
     <NavbarWrapper>
-      
+      <NavBarBackground/>
       <Link href="/">
-        <Logo src="/EctoEcologyLogoWhite.png" alt="EctoEcology Logo" />
+        <Logo src="/EctoGeneticsWhite.png" alt="EctoGenetics Logo" />
       </Link>
       {isDesktop ? (
         <NavLinks>
@@ -163,6 +174,7 @@ const Navbar: React.FC = () => {
           </Menu>
         </MenuWrapper>
       )}
+      
     </NavbarWrapper>
   );
 };

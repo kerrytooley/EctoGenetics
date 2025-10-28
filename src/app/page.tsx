@@ -8,12 +8,13 @@ import WhatWeDoSection from "@/components/WhatWeDo";
 import RecentReviewsSection from "@/components/RecentReviews";
 import OurServicesSection from "@/components/OurServices";
 import Gallery from "@/components/Gallery";
+import { SectionSubtitle } from "@/components/SectionTitles";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>This page is under construction</h1>
+        <SectionSubtitle>This page is under construction</SectionSubtitle>
       </main>
     </div>
   );
