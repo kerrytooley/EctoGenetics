@@ -55,7 +55,6 @@ export default function LayoutWrapper({
             {children}
             
           </PageWrapper>
-          <Footer />
         </Parallax>
       </ParallaxProvider>
     </div>
