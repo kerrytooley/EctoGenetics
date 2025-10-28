@@ -13,13 +13,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <HowItWorksCards />
-        <OurServicesSection />
-        <CarouselComponent />
-        <WhatWeDoSection />
-        <RecentReviewsSection />
-        <ContactForm />
-        <Gallery />
+        <h1>This page is under construction</h1>
       </main>
     </div>
   );
