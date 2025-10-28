@@ -49,7 +49,7 @@ export default function LayoutWrapper({
     <div className="page-wrapper">
       <StickyHeader />
       <ParallaxProvider>
-        <BackgroundImage src="/forest.jpg" alt="Forest Background" />
+        <BackgroundImage src="/LabBackground.png" alt="Lab Background" />
         <Parallax speed={-20} translateY={isDesktop ? [-0, 0] : [0, 0]}>
           <PageWrapper>
             {children}

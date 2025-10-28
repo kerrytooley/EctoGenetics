@@ -10,7 +10,7 @@ const redHatText = Red_Hat_Text({
 });
 
 export const metadata: Metadata = {
-  title: "EctoEcology",
+  title: "EctoGenetics",
   description: "Get you bat survey quote today",
 };
 
