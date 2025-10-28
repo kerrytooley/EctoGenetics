@@ -20,10 +20,8 @@ export default function StickyHeader() {
     <>
       <StickyHeaderContainer>
         <NavBar />
-        <Banner variant="info" />
       </StickyHeaderContainer>
       <HiddenHeaderContainer>
-        <Banner variant="sales" />
       </HiddenHeaderContainer>
     </>
   );

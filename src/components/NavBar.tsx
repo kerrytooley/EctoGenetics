@@ -141,16 +141,12 @@ const Navbar: React.FC = () => {
 
   return (
     <NavbarWrapper>
-      <BackgroundVideo autoPlay loop muted playsInline>
-        <source src="/forestVideo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </BackgroundVideo>
+      
       <Link href="/">
         <Logo src="/EctoEcologyLogoWhite.png" alt="EctoEcology Logo" />
       </Link>
       {isDesktop ? (
         <NavLinks>
-          <PageLinks />
         </NavLinks>
       ) : (
         <MenuWrapper>
@@ -164,7 +160,6 @@ const Navbar: React.FC = () => {
             <div />
           </Hamburger>
           <Menu open={open}>
-            <PageLinks />
           </Menu>
         </MenuWrapper>
       )}
